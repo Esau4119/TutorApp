@@ -146,9 +146,7 @@ app.post("/getCategory", bodyParser.json(), async (req, res) => {
 });
 
 AWS.config.update({
-  accessKeyId: "AKIAYCLPW4ZA6K5MKQU3",
-  secretAccessKey: "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",
-  region: "us-west-1",
+//  not today
 });
 const s3 = new AWS.S3();
 
